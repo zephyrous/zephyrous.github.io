@@ -17,7 +17,7 @@ body {
 }
 
 #wrapper {
-  width: 840px;
+  width: 800px;
   margin: 0 auto;
   padding: 0 5%;
 }
@@ -49,7 +49,7 @@ header {
 #logo {
   float: left;
   text-align: center;
-  margin-left: 120px;
+  margin-left: 200px;
   margin-top: 5px;
 }
 
@@ -114,7 +114,7 @@ footer {
 }
 
 /*******************************
-PAGE PORTFOLIO
+PAGE: WEB
 ******************************/
 #gallery {
   margin: 5px;
@@ -132,6 +132,25 @@ PAGE PORTFOLIO
   clear: both;
 }
 
+/*******************************
+PAGE: WEB
+******************************/
+.webfolio {
+  list-style: none;
+  width: 500px;
+}
+
+.webfolio li {
+  line-height: 60px;
+}
+
+.webfolio h1 {
+  font-size: 20px;
+}
+
+.webfolio li h2 {
+  margin-top: -25px;
+}
 /*******************************
 PAGE: ABOUT
 ******************************/
