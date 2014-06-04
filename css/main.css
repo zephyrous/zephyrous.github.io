@@ -49,12 +49,12 @@ header {
 #logo {
   float: left;
   text-align: center;
-  margin-left: 200px;
+  margin-left: 150px;
   margin-top: 5px;
 }
 
 h1 {
-  font-family: 'sans-serif';
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.75em;
   font-weight: normal;
   line-height: 0.7em;
@@ -114,7 +114,7 @@ footer {
 }
 
 /*******************************
-PAGE: WEB
+PAGE: DESIGN
 ******************************/
 #gallery {
   margin: 5px;
@@ -126,6 +126,10 @@ PAGE: WEB
   float: left;
   width: 25%;
   background-color: #fff;
+}
+
+.call-to-action {
+  text-align: center;
 }
 
 .clear {
@@ -151,6 +155,8 @@ PAGE: WEB
 .webfolio li h2 {
   margin-top: -25px;
 }
+
+
 /*******************************
 PAGE: ABOUT
 ******************************/
@@ -169,6 +175,14 @@ h3 p {
 /*******************************
 PAGE: CONTACT
 ******************************/
+#primary {
+  margin-top: 20px;
+}
+
+#secondary {
+  padding-top: 20px;
+}
+
 #wrapper.columns {
   width: 700px;
 }
@@ -227,6 +241,14 @@ h2 {
   color: #999;
 }
 
+h3 {
+  color: #29A8E7;
+}
+
+p span {
+  color: #29A8E7;
+}
+
 nav {
   background: #fff;
 }
@@ -236,10 +258,18 @@ nav a, nav a:visited {
 }
   
 nav a.selected, nav a:hover {
-  color: #666;
+  color: #29A8E7;
 }
 
 body {
   background-color: #fff;
   color: #999;
+}
+
+.webfolio span {
+  color: #29A8E7;
+}
+
+.call-to-action span {
+  color: #29A8E7;
 }
